@@ -1,0 +1,121 @@
+*   {
+    font-family: "Poppins";
+    background-color: #303030;
+    color: #ebebeb;
+}
+
+#app-wrapper {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header span {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+h2 {
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+#main-body {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+#form-section {
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.field-wrapper {
+    margin-left: 40px;
+}
+
+label {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    margin: 20px;
+}
+
+input {
+    display: inline-block;
+    margin: 20px;
+    width: 30%;
+    padding: 5px;
+}
+
+textarea {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: middle;
+}
+
+button {
+    margin-left: 50%;
+    background-color: #472563;
+    border: none;
+    color: #ebebeb;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(235,235,235,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(235,235,235,0);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    list-style: none;
+}
+
+i {
+    padding: 10px;
+}
+  
+li {
+    font-size: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ebebeb;
+    color: #472563;
+}
+
+
+
